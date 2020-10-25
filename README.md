@@ -32,7 +32,7 @@ After placing relevant fields columns, rows and values, we have the following Pi
 
 Since we need analysis, on the basis of 'Theater' Parent Category and , over the period of months, Year wise, we need to group data , month wise, so that we can choose year from the filter, for data of years, we do grouping as below, by right click on first value, then 'Group' --> 'Months' :
 
-![Grouping process]https://github.com/kirtibhandari/Module-1-Challenge/blob/main/Resources/Grouping.png)
+![Grouping process](https://github.com/kirtibhandari/Module-1-Challenge/blob/main/Resources/Grouping.png)
 
 Next, we obtain following result after grouping row labels on 'Month' basis, Filtering Parent Category on 'Theater' basis and sorting the columns so that 'successful' is shown first.
 
