@@ -20,42 +20,42 @@ Before we can perform our analysis, we need to check if we have the required inf
 
 To do analysis of outcomes based on Launch Date, a new coulmn 'Years' was created by extracting value of 'Year' from the available 'Date Created Conversion' column so that we can see how 'Theater' campaign performed over years. To do this, Excel YEAR(serial number) function was used.
 
-![Years_Column](Resources\Years_Column.png)
+![Years_Column](https://github.com/kirtibhandari/Module-1-Challenge/blob/main/Resources/Years_Column.png)
 
 Next, a pivot table was created using 'Insert' tab --> 'Pivot table' -->'New WorkSheet'
 
-![Pivot table- Launch Date](Resources\Pivot_Table-Outcomes_Based_on_Launch_Date.png)
+![Pivot table- Launch Date](https://github.com/kirtibhandari/Module-1-Challenge/blob/main/Resources/Pivot_Table-Outcomes_Based_on_Launch_Date.png)
 
 After placing relevant fields columns, rows and values, we have the following Pivot Table :
 
-![Outcomes by Launch Date initial](Resources\Outcomes_by_launch_date_inital.png)
+![Outcomes by Launch Date initial](https://github.com/kirtibhandari/Module-1-Challenge/blob/main/Resources/Outcomes_by_launch_date_inital.png)
 
 Since we need analysis, on the basis of 'Theater' Parent Category and , over the period of months, Year wise, we need to group data , month wise, so that we can choose year from the filter, for data of years, we do grouping as below, by right click on first value, then 'Group' --> 'Months' :
 
-![Grouping process](Resources\Grouping.png)
+![Grouping process]https://github.com/kirtibhandari/Module-1-Challenge/blob/main/Resources/Grouping.png)
 
 Next, we obtain following result after grouping row labels on 'Month' basis, Filtering Parent Category on 'Theater' basis and sorting the columns so that 'successful' is shown first.
 
-![After Grouping, Filtering & Sorting in Descending Order](Resources\After_Grouping_and_Filtering.png)
+![After Grouping, Filtering & Sorting in Descending Order](https://github.com/kirtibhandari/Module-1-Challenge/blob/main/Resources/After_Grouping_and_Filtering.png)
 
 Next, we want to create a visualization for simplifying and comprehensible for our client, we create a Pivot Chart (Line Graph), to depict realationship between outcomes & launch months, for 'Theater' Parent Category, over period of all Years down the line, using Pivot Chart option .
 
-![Pivot Chart Option](Resources\Pivot_Chart_Option.png)
+![Pivot Chart Option](https://github.com/kirtibhandari/Module-1-Challenge/blob/main/Resources/Pivot_Chart_Option.png)
 
 As a result, we obtainf below line chart, presenting relationship betwee outcomes and luanch month, as required.
 
-![Theater Category - Outcomes_vs_Launch](Resources\Theater_Outcomes_vs_Launch.png)
+![Theater Category - Outcomes_vs_Launch](https://github.com/kirtibhandari/Module-1-Challenge/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 To do analysis for campaigns' Outcomes how they faired when we see them against 'Goals', in terms of percentage of success, failures or cancellation varying depending upon the target fund they aimed at raising, we need to know how many were a success, failure or cancelled against Total campaigns.
 
 For this, a new worksheet was created, counts of campaigns, counts of success, failures and cancellations were made and then their percentage was calculated,among different goal amount ranges, and sheet was named ' Outcomes based on Goals'.
 
-![Dataset_Outcomes_Based_On_Goals](Resources\Dataset_Outcomes_Based_on_Goals.png)
+![Dataset_Outcomes_Based_On_Goals](https://github.com/kirtibhandari/Module-1-Challenge/blob/main/Resources/Dataset_Outcomes_Based_on_Goals.png)
 
 Then we created a Pivot Chart (Line Chart) to create a visulaization on the basis of this dataset, plotting goal amount ranges vs percentage of successful , failed or canceled projects. The resulting graph as below:
 
-![Outcomes_vs_Goals](Resources\Outcomes_vs_Goals.png)
+![Outcomes_vs_Goals](https://github.com/kirtibhandari/Module-1-Challenge/blob/main/Resources/Outcomes_vs_Goals.png)
 
 
 ### Challenges and Difficulties Encountered
