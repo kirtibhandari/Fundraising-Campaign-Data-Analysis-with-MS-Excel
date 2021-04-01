@@ -1,4 +1,4 @@
-# **Data Analysis with Excel**
+# **Fundraising Campaigns' Data Analysis with Microsoft Excel**
 
 ## Overview of Project
 We have a dataset which contains information about different fundraisng campaigns in various countries of the world, in different start and end dates, for a number of categories, providing valuable information about the campaign's financial goals, what amount was pledged against each such campaign along with their outcomes when they finished.
