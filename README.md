@@ -1,4 +1,4 @@
-# **Kickstarting with Excel**
+# **Data Analysis with Excel**
 
 ## Overview of Project
 We have a dataset which contains information about different fundraisng campaigns in various countries of the world, in different start and end dates, for a number of categories, providing valuable information about the campaign's financial goals, what amount was pledged against each such campaign along with their outcomes when they finished.
@@ -12,7 +12,7 @@ Second visualization to depict relationship between goals of campaigns and what 
 
 
 ## Analysis and Challenges
- Explain how you performed your analysis using images and links to code, as well as any challenges you encountered and how you overcame them. If you had no challenges, describe any possible challenges or difficulties that could be encountered.
+We are required to explain how we performed our analysis using images and links to code, as well as any challenges we encounter and how we overcame them. If we had no challenges, we need to describe any possible challenges or difficulties that could be encountered.
 
 Before we can perform our analysis, we need to check if we have the required information or required values in required format in available data set or do we have to convert any available information or create new columns, or do we need to apply filters to extract any specific values out of already available values in a column, to have required information for our analysis. This basically we can say, cleaning or organising data. So, required columns were created, pivot tables and charts were made.
 
@@ -42,7 +42,7 @@ Next, we want to create a visualization for simplifying and comprehensible for o
 
 ![Pivot Chart Option](https://github.com/kirtibhandari/Module-1-Challenge/blob/main/Resources/Pivot_Chart_Option.png)
 
-As a result, we obtainf below line chart, presenting relationship betwee outcomes and luanch month, as required.
+As a result, we obtained below line chart, presenting relationship between outcomes and launch month, as required.
 
 ![Theater Category - Outcomes_vs_Launch](https://github.com/kirtibhandari/Module-1-Challenge/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 
@@ -61,12 +61,12 @@ Then we created a Pivot Chart (Line Chart) to create a visulaization on the basi
 ### Challenges and Difficulties Encountered
 #### Outcomes based on Launch Date
 There were couple of requirements that were new though knew basic use of Excel.
-1. Use of YEARS function - to extract year part from Date. Column value format for 'Date Created Conversion' was 'Short Date' previously when this column was created. To get the exact format as in the required screen shot with date format and time of that day, i had to first convert this 'Date Created Conversion' columns format Using 'Custom' option and then choosing appropriate format.
+1. Use of YEARS function - to extract year part from Date. Column value format for 'Date Created Conversion' was 'Short Date' previously when this column was created. To get the exact format as in the required screen shot with date format and time of that day, we had to first convert this 'Date Created Conversion' columns format Using 'Custom' option and then choosing appropriate format.
 
-2. Second, grouping data just to be able to display Months, had to learn it from the video tutorial embedded in the challenge.
+2. Second, grouping data just to be able to display Months, had to learn it from a tutorial.
 
 #### Outcomes based on Goals
-Use of COUNTIFS function of excel was a bit tricky as it involved somewhat complex syntax. I was unable to initially acheive the required graph. Then I found out I missed out one symbol while using the formula. So, it helped me understand that proper focus is required while performing complex calculations, especially when you are learning some new functionality in order to acheive the required outcomes.
+Use of COUNTIFS function of excel was a bit tricky as it involved somewhat complex syntax. It was difficult to initially acheive the required graph. Then it was found out that a symbol was missed out while using the formula. So, it helped to understand that proper focus is required while performing complex calculations, especially when you are learning some new functionality in order to acheive the required outcomes.
 
 
 ## Results
