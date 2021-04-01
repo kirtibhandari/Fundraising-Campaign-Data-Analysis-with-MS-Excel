@@ -1,7 +1,7 @@
 # **Fundraising Campaigns' Data Analysis with Microsoft Excel**
 
 ## Overview of Project
-We have a dataset which contains information about different fundraisng campaigns in various countries of the world, in different start and end dates, for a number of categories, providing valuable information about the campaign's financial goals, what amount was pledged against each such campaign along with their outcomes when they finished.
+We have a dataset which contains information about different fundraising campaigns in various countries of the world, in different start and end dates, for a number of categories, providing valuable information about the campaign's financial goals, what amount was pledged against each such campaign along with their outcomes when they finished.
 
 ### Purpose
 On the basis of the available dataset, we are required to find out which campaigns achieved their fundraising goals successfully , which could not and which were cancelled. Also, how the outcomes were affected by amount of funds that were designated as goals as well as how the launch dates impacted those outcomes.
@@ -14,11 +14,11 @@ Second visualization to depict relationship between goals of campaigns and what 
 ## Analysis and Challenges
 We are required to explain how we performed our analysis using images and links to code, as well as any challenges we encounter and how we overcame them. If we had no challenges, we need to describe any possible challenges or difficulties that could be encountered.
 
-Before we can perform our analysis, we need to check if we have the required information or required values in required format in available data set or do we have to convert any available information or create new columns, or do we need to apply filters to extract any specific values out of already available values in a column, to have required information for our analysis. This basically we can say, cleaning or organising data. So, required columns were created, pivot tables and charts were made.
+Before we can perform our analysis, we need to check if we have the required information or required values in required format in available data set or do we have to convert any available information or create new columns, or do we need to apply filters to extract any specific values out of already available values in a column, to have required information for our analysis. This basically we can say, cleaning or organizing data. So, required columns were created, pivot tables and charts were made.
 
 ### Analysis of Outcomes Based on Launch Date
 
-To do analysis of outcomes based on Launch Date, a new coulmn 'Years' was created by extracting value of 'Year' from the available 'Date Created Conversion' column so that we can see how 'Theater' campaign performed over years. To do this, Excel YEAR(serial number) function was used.
+To do analysis of outcomes based on Launch Date, a new column 'Years' was created by extracting value of 'Year' from the available 'Date Created Conversion' column so that we can see how 'Theater' campaign performed over years. To do this, Excel YEAR(serial number) function was used.
 
 ![Years_Column](https://github.com/kirtibhandari/Module-1-Challenge/blob/main/Resources/Years_Column.png)
 
@@ -38,7 +38,7 @@ Next, we obtain following result after grouping row labels on 'Month' basis, Fil
 
 ![After Grouping, Filtering & Sorting in Descending Order](https://github.com/kirtibhandari/Module-1-Challenge/blob/main/Resources/After_Grouping_and_Filtering.png)
 
-Next, we want to create a visualization for simplifying and comprehensible for our client, we create a Pivot Chart (Line Graph), to depict realationship between outcomes & launch months, for 'Theater' Parent Category, over period of all Years down the line, using Pivot Chart option .
+Next, we want to create a visualization for simplifying and comprehensible for our client, we create a Pivot Chart (Line Graph), to depict relationship between outcomes & launch months, for 'Theater' Parent Category, over period of all Years down the line, using Pivot Chart option .
 
 ![Pivot Chart Option](https://github.com/kirtibhandari/Module-1-Challenge/blob/main/Resources/Pivot_Chart_Option.png)
 
@@ -53,7 +53,7 @@ For this, a new worksheet was created, counts of campaigns, counts of success, f
 
 ![Dataset_Outcomes_Based_On_Goals](https://github.com/kirtibhandari/Module-1-Challenge/blob/main/Resources/Dataset_Outcomes_Based_on_Goals.png)
 
-Then we created a Pivot Chart (Line Chart) to create a visulaization on the basis of this dataset, plotting goal amount ranges vs percentage of successful , failed or canceled projects. The resulting graph as below:
+Then we created a Pivot Chart (Line Chart) to create a visualization on the basis of this dataset, plotting goal amount ranges vs percentage of successful , failed or canceled projects. The resulting graph as below:
 
 ![Outcomes_vs_Goals](https://github.com/kirtibhandari/Module-1-Challenge/blob/main/Resources/Outcomes_vs_Goals.png)
 
@@ -66,14 +66,14 @@ There were couple of requirements that were new though knew basic use of Excel.
 2. Second, grouping data just to be able to display Months, had to learn it from a tutorial.
 
 #### Outcomes based on Goals
-Use of COUNTIFS function of excel was a bit tricky as it involved somewhat complex syntax. It was difficult to initially acheive the required graph. Then it was found out that a symbol was missed out while using the formula. So, it helped to understand that proper focus is required while performing complex calculations, especially when you are learning some new functionality in order to acheive the required outcomes.
+Use of COUNTIFS function of excel was a bit tricky as it involved somewhat complex syntax. It was difficult to initially achieve the required graph. Then it was found out that a symbol was missed out while using the formula. So, it helped to understand that proper focus is required while performing complex calculations, especially when you are learning some new functionality in order to achieve the required outcomes.
 
 
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-1. More success was achieved in months of 'May'or 'June' and least in months of 'Nov' and 'Dec'. Hence, we can indicate our client when they can think of launching a campaign would be better as compared to other months during a year.
+1. More success was achieved in months of 'May' or 'June' and least in months of 'Nov' and 'Dec'. Hence, we can indicate our client when they can think of launching a campaign would be better as compared to other months during a year.
 
 2. For the total campaigns, almost 61% were successful, 36 % failed and 2.7% canceled.
 
@@ -90,11 +90,11 @@ i.e. Goal is inversely proportional to success/performance.
 
 - What are some limitations of this dataset?
 
-Limitations of Kickstarter Data set:
+Limitations of Fundraising_campaigns Data set:
 There are additional parameters which may provide valuable information to deepen our analysis such as purpose of fundraising, age groups of backers, method of pledging such as online or in-person.
 
 - What are some other possible tables and/or graphs that we could create?
 We can create additional tables or graphs that could depict :
 1. Relationship between demographics vs use of funds for benefit of local or global community
 2. Income group wise backers and their frequency of participation
-3. We could depict comparativley better visualization if we take into consideration , duration of campaign, instead of only start dates for outcomes.
+3. We could depict comparatively better visualization if we take into consideration , duration of campaign, instead of only start dates for outcomes.
